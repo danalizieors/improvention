@@ -1,0 +1,7 @@
+.yarn/*
+.pnp.*
+
+assets
+build
+node_modules
+yarn.lock
