@@ -5,21 +5,32 @@
         "check:compile": "tsc",
         "check:format": "prettier --check .",
         "fix:format": "prettier --write .",
+        "test": "jest --config .jestrc.json --passWithNoTests",
         "start": "vite",
-        "build": "tsc && vite build",
+        "build": "vite build",
         "serve": "vite preview",
         "clean": "rm -rf build"
     },
     "dependencies": {
-        "react": "^17.0.0",
-        "react-dom": "^17.0.0"
+        "@chakra-ui/react": "^1.7.2",
+        "@emotion/react": "^11.7.0",
+        "@emotion/styled": "^11.6.0",
+        "framer-motion": "^5.3.3",
+        "ramda": "^0.27.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "webmidi": "^3.0.2"
     },
     "devDependencies": {
-        "@types/react": "^17.0.0",
-        "@types/react-dom": "^17.0.0",
-        "@vitejs/plugin-react": "^1.0.0",
-        "prettier": "^2.4.1",
-        "typescript": "^4.3.2",
-        "vite": "^2.6.4"
+        "@types/jest": "^27.0.3",
+        "@types/ramda": "^0.27.56",
+        "@types/react": "^17.0.37",
+        "@types/react-dom": "^17.0.11",
+        "@vitejs/plugin-react": "^1.1.0",
+        "jest": "^27.4.0",
+        "prettier": "^2.5.0",
+        "ts-jest": "^27.0.7",
+        "typescript": "4.4.4",
+        "vite": "^2.6.14"
     }
 }
